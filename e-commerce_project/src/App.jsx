@@ -10,10 +10,11 @@ import Error from "./component/ui/Error";
 import Home from "./pages/Home";
 import Mall from "./pages/Mall";
 import Categories from "./pages/Categories";
-import About from "./pages/About";
+import About from "./pages/Account";
 import Cart from "./pages/Cart";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Account from "./pages/Account";
 
 
 function App() {
@@ -36,8 +37,8 @@ function App() {
           element: <Categories />,
         },
         {
-          path: "about",
-          element: <About />,
+          path: "account",
+          element: <Account />,
         },
         {
           path: "cart",

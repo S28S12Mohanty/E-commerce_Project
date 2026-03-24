@@ -3,6 +3,7 @@ import { GiShoppingCart } from "react-icons/gi";
 import { LiaShoppingBagSolid } from "react-icons/lia";
 import { NavLink } from "react-router-dom";
 import { CiLogin } from "react-icons/ci";
+import { CiSearch } from "react-icons/ci";
 
 const Header = () => {
   // navigation path
@@ -10,7 +11,7 @@ const Header = () => {
     { name: "Home", path: "/" },
     { name: "Mall", path: "/mall" },
     { name: "Categories", path: "/categories" },
-    { name: "About", path: "/about" },
+    { name: "Account", path: "/account" },
   ];
 
   return (
@@ -25,7 +26,7 @@ const Header = () => {
 
           {/* navigation link */}
           <nav className="font-semibold">
-            <ul className="flex gap-10 justify-end  ">
+            <ul className="flex gap-10 justify-center  ">
               {navLinks.map((link, index) => (
                 <li key={index}>
                   <NavLink to={link.path} className="hover:opacity-95">
@@ -37,17 +38,12 @@ const Header = () => {
           </nav>
 
           {/* login and cart */}
-          <div className="flex gap-5 justify-end ">
-            <NavLink
-              to="/login"
-              className="text-3xl text-blue-900 hover:text-gray-100"
-            >
+          <div className="flex gap-5 justify-end text-3xl text-blue-900 hover:text-gray-100">
+            <CiSearch />
+            <NavLink to="/login">
               <CiLogin />
             </NavLink>
-            <NavLink
-              to="/cart"
-              className="text-3xl text-blue-900 hover:text-gray-100"
-            >
+            <NavLink to="/cart">
               <GiShoppingCart />
             </NavLink>
           </div>
