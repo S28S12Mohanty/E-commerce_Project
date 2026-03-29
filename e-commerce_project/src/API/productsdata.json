@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "image": "../public/images/products1.jpeg",
+    "title": "Hand-picked",
+    "subtitle": "Top Rated"
+  },
+  {
+    "id": 2,
+    "image": "../public/images/products2.jpeg",
+    "title": "Top Offers",
+    "subtitle": "Up to 80% Off"
+  },
+  {
+    "id": 3,
+    "image": "../public/images/products3.jpeg",
+    "title": "Most Loved",
+    "subtitle": "Under ₹399"
+  },
+ 
+  {
+    "id": 4,
+    "image": "../public/images/products4.jpeg",
+    "title": "Top Collection",
+    "subtitle": "Under ₹299"
+  }
+]

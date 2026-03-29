@@ -1,7 +1,7 @@
 import React from "react";
 import { useRouteError } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import Error_image from "../../assets/Error_image.png";
+import Error_image from "../../../public/images/Error_image.png";
 
 const Error = () => {
   const error = useRouteError();

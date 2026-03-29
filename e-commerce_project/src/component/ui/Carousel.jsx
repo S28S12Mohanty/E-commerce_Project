@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
-import product1 from "../assets/product1.jpeg";
-import product2 from "../assets/product2.jpeg";
-import product3 from "../assets/product3.jpeg";
+import c_image1 from "../../../public/images/c_image1.jpeg";
+import c_image2 from "../../../public/images/c_image2.jpeg";
+import c_image3 from "../../../public/images/c_image3.jpeg";
 
 const Carousel = () => {
-  const images = [product1, product2, product3];
+  const images = [c_image1, c_image2, c_image3];
 
   const [current, setCurrent] = useState(0);
 
